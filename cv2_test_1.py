@@ -29,15 +29,29 @@ def draw(img, corners, imgpts):
     imgpts = np.int32(imgpts).reshape(-1, 2)
 
     # draw ground floor in green
-    # img = cv2.drawContours(img, [imgpts[:4]], -1, (0, 255, 0), -3)
+    img = cv2.drawContours(img, [imgpts[:4]], -1, (0, 255, 0), -3)
 
+    # print(type(imgpts))
     # print(imgpts)
-    font = cv2.FONT_HERSHEY_COMPLEX
-    cv2.putText(img_camera, "Landing here 0", (int(imgpts[0][0]), int(imgpts[0][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
-    cv2.putText(img_camera, "Landing here 1", (int(imgpts[1][0]), int(imgpts[1][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
-    cv2.putText(img_camera, "Landing here 2", (int(imgpts[2][0]), int(imgpts[2][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
 
-    # cv2.putText(img_camera, "Landing here 01", (int(imgpts[2][0]), int(imgpts[2][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
+
+    font = cv2.FONT_HERSHEY_COMPLEX
+    # cv2.putText(img_camera, "Intel", (int(imgpts[0][0]), int(imgpts[0][1])), font, 0.8, (255, 255, 255), 1, cv2.LINE_AA)
+    cv2.putText(img_camera, "Intel", (int((int(imgpts[0][0])+int(imgpts[3][0]))/2.5), int((int(imgpts[0][1])+int(imgpts[1][1]))/2)), font, 0.8, (255, 255, 255), 1, cv2.LINE_AA)
+    # cv2.putText(img_camera, "Landing here 1", (int(imgpts[1][0]), int(imgpts[1][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
+    # cv2.putText(img_camera, "Landing here 2", (int(imgpts[2][0]), int(imgpts[2][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
+    # cv2.putText(img_camera, "Landing here 3", (int(imgpts[3][0]), int(imgpts[3][1])), font, 1, (255, 255, 255), 1, cv2.LINE_AA)
+
+    # print('00000000000')
+    # print(int(imgpts[0][0]))
+    # print(int(imgpts[0][1]))
+    # print('11111111111')
+    # print(int(imgpts[1][0]))
+    # print(int(imgpts[1][1]))
+    # print('22222222222')
+    # print(int(imgpts[2][0]))
+    # print(int(imgpts[2][1]))
+
 
     # draw pillars in blue color
     for i, j in zip(range(4), range(4, 8)):
@@ -45,6 +59,29 @@ def draw(img, corners, imgpts):
 
     # draw top layer in red color
     img = cv2.drawContours(img, [imgpts[4:]], -1, (0, 0, 255), 3)
+
+    # cnt = [imgpts[:4]]
+    # M = cv2.moments(cnt)
+    # print('####')
+    # print(type(M))
+    #
+    # print(M)
+    # cx = int(M['m10'] / M['m00'])
+    # cy = int(M['m01'] / M['m00'])
+    # # print(cx)
+    # print(cy)
+    #
+    print([imgpts[:4]])
+    print(type([imgpts[:4]]))
+    print([imgpts[:4]][0])
+    # print(imgpts[1])
+    # print(imgpts[2])
+    # print(imgpts[3])
+    # print(imgpts[4])
+    # print(imgpts[5])
+    # print(imgpts[6])
+    # print(imgpts[7])
+    #
 
     return img
 
@@ -104,7 +141,7 @@ while cap.isOpened():
     except:
         pass
 
-    cv2.imshow('img', img_camera)
+    cv2.imshow('Landing area', img_camera)
 
     k = cv2.waitKey(1)
 
