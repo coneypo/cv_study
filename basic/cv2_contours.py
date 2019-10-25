@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 # 设置视频参数: propId - 设置的视频参数, value - 设置的参数值
 cap.set(3, 480)
 
-img_rd = cv2.imread("photos/test2.png")
+img_rd = cv2.imread("../photos/test2.png")
 
 # 1. gray
 img_gray = cv2.cvtColor(img_rd, cv2.COLOR_BGR2GRAY)

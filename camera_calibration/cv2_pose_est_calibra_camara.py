@@ -12,9 +12,10 @@ objp = np.zeros((5 * 5, 3), np.float32)
 objp[:, :2] = np.mgrid[0:5, 0:5].T.reshape(-1, 2)
 # axis = np.float32([[0, 0, 0], [0, 3, 0], [3, 3, 0], [3, 0, 0],
 #                    [0, 0, -3], [0, 3, -3], [3, 3, -3], [3, 0, -3]])
-axis = np.float32([[0, 0, 0], [0, 4, 0], [4, 4, 0], [4, 0, 0],
-                   [0, 0, -4], [0, 4, -4], [4, 4, -4], [4, 0, -4]])
+# axis = np.float32([[0, 0, 0], [0, 4, 0], [4, 4, 0], [4, 0, 0],
+#                    [0, 0, -4], [0, 4, -4], [4, 4, -4], [4, 0, -4]])
 
+axis = np.float32([[3,0,0], [0,3,0], [0,0,-3]]).reshape(-1,3)
 # Arrays to store object points and image points from all the images.
 objpoints = []  # 3d point in real world space
 imgpoints = []  # 2d points in image plane.
@@ -123,17 +124,23 @@ while cap.isOpened():
         ### Draw ###
         imgpts = np.int32(imgpts).reshape(-1, 2)
         # 1. draw ground floor in green
-        img_camera = cv2.drawContours(img_camera, [imgpts[:4]], -1, (0, 255, 0), -3)
+        # img_camera = cv2.drawContours(img_camera, [imgpts[:4]], -1, (0, 255, 0), -3)
 
         # 2. draw pillars in blue color
-        for i, j in zip(range(4), range(4, 8)):
-            img_camera = cv2.line(img_camera, tuple(imgpts[i]), tuple(imgpts[j]), (255), 3)
+        # for i, j in zip(range(4), range(4, 8)):
+        #    img_camera = cv2.line(img_camera, tuple(imgpts[i]), tuple(imgpts[j]), (255), 3)
 
         # 3. draw top layer in red color
-        img_camera = cv2.drawContours(img_camera, [imgpts[4:]], -1, (0, 0, 255), 3)
+        # img_camera = cv2.drawContours(img_camera, [imgpts[4:]], -1, (0, 0, 255), 3)
 
         # 4. draw intel log
         cv2.putText(img_camera, text_intel, centre_pos, font, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+
+        # 5. draw corners
+        corner = tuple(corners[0].ravel())
+        cv2.line(img_camera, corner, tuple(imgpts[0].ravel()), (255,0,0),5)
+        cv2.line(img_camera, corner, tuple(imgpts[1].ravel()), (0,255, 0),5)
+        cv2.line(img_camera, corner, tuple(imgpts[2].ravel()), (0,0,255),5)
 
         ## End drawing ###
 
