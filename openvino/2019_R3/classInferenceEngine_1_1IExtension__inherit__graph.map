@@ -1,0 +1,6 @@
+<map id="InferenceEngine::IExtension" name="InferenceEngine::IExtension">
+<area shape="rect" id="node5" href="$classInferenceEngine_1_1Extension.html" title="This class is a C++ helper to work with objects created using extensions. " alt="" coords="11,348,209,375"/>
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1IShapeInferExtension.html" title="This class is the reader extension interface to provide implementation for shape propagation. " alt="" coords="5,184,215,225"/>
+<area shape="rect" id="node3" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="21,95,199,136"/>
+<area shape="rect" id="node4" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="21,5,199,47"/>
+</map>

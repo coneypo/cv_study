@@ -1,6 +1,6 @@
 import cv2
 import imutils
-img_rd = cv2.imread("photos/test_1.jpg")
+img_rd = cv2.imread("../photos/test_1.jpg")
 
 print(type(img_rd))
 print(img_rd.size)

@@ -1,0 +1,5 @@
+<map id="InferenceEngine::CNNNetwork" name="InferenceEngine::CNNNetwork">
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1ICNNNetwork.html" title="This is the main interface to describe the NN topology. " alt="" coords="5,187,228,213"/>
+<area shape="rect" id="node3" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="27,96,206,137"/>
+<area shape="rect" id="node4" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="27,5,206,47"/>
+</map>

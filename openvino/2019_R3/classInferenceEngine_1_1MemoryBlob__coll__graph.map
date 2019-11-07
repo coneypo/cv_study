@@ -1,0 +1,4 @@
+<map id="InferenceEngine::MemoryBlob" name="InferenceEngine::MemoryBlob">
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1Blob.html" title="This class represents a universal container in the Inference Engine. " alt="" coords="32,95,196,121"/>
+<area shape="rect" id="node3" href="$classInferenceEngine_1_1TensorDesc.html" title="This class defines Tensor description. " alt="" coords="9,5,219,32"/>
+</map>

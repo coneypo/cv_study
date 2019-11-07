@@ -1,0 +1,5 @@
+<map id="InferenceEngine::ShapeInferExtension" name="InferenceEngine::ShapeInferExtension">
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1IShapeInferExtension.html" title="This class is the reader extension interface to provide implementation for shape propagation. " alt="" coords="464,5,673,47"/>
+<area shape="rect" id="node3" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="233,5,412,47"/>
+<area shape="rect" id="node4" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="5,5,184,47"/>
+</map>

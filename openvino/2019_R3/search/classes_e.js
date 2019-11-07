@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['rangelayer',['RangeLayer',['../classInferenceEngine_1_1RangeLayer.html',1,'InferenceEngine']]],
+  ['reducelayer',['ReduceLayer',['../classInferenceEngine_1_1ReduceLayer.html',1,'InferenceEngine']]],
+  ['regionyololayer',['RegionYoloLayer',['../classInferenceEngine_1_1Builder_1_1RegionYoloLayer.html',1,'InferenceEngine::Builder']]],
+  ['relu6layer',['ReLU6Layer',['../classInferenceEngine_1_1ReLU6Layer.html',1,'InferenceEngine']]],
+  ['relu6layer',['ReLU6Layer',['../classInferenceEngine_1_1Builder_1_1ReLU6Layer.html',1,'InferenceEngine::Builder']]],
+  ['relulayer',['ReLULayer',['../classInferenceEngine_1_1Builder_1_1ReLULayer.html',1,'InferenceEngine::Builder']]],
+  ['relulayer',['ReLULayer',['../classInferenceEngine_1_1ReLULayer.html',1,'InferenceEngine']]],
+  ['reorgyololayer',['ReorgYoloLayer',['../classInferenceEngine_1_1Builder_1_1ReorgYoloLayer.html',1,'InferenceEngine::Builder']]],
+  ['requestbusy',['RequestBusy',['../classInferenceEngine_1_1RequestBusy.html',1,'InferenceEngine']]],
+  ['resamplelayer',['ResampleLayer',['../classInferenceEngine_1_1Builder_1_1ResampleLayer.html',1,'InferenceEngine::Builder']]],
+  ['reshapelayer',['ReshapeLayer',['../classInferenceEngine_1_1ReshapeLayer.html',1,'InferenceEngine']]],
+  ['reshapelayer',['ReshapeLayer',['../classInferenceEngine_1_1Builder_1_1ReshapeLayer.html',1,'InferenceEngine::Builder']]],
+  ['responsedesc',['ResponseDesc',['../structInferenceEngine_1_1ResponseDesc.html',1,'InferenceEngine']]],
+  ['resultnotready',['ResultNotReady',['../classInferenceEngine_1_1ResultNotReady.html',1,'InferenceEngine']]],
+  ['reversesequencelayer',['ReverseSequenceLayer',['../classInferenceEngine_1_1ReverseSequenceLayer.html',1,'InferenceEngine']]],
+  ['rnncell',['RNNCell',['../classInferenceEngine_1_1RNNCell.html',1,'InferenceEngine']]],
+  ['rnncellbase',['RNNCellBase',['../classInferenceEngine_1_1RNNCellBase.html',1,'InferenceEngine']]],
+  ['rnnsequencelayer',['RNNSequenceLayer',['../classInferenceEngine_1_1Builder_1_1RNNSequenceLayer.html',1,'InferenceEngine::Builder']]],
+  ['rnnsequencelayer',['RNNSequenceLayer',['../classInferenceEngine_1_1RNNSequenceLayer.html',1,'InferenceEngine']]],
+  ['roi',['ROI',['../structInferenceEngine_1_1ROI.html',1,'InferenceEngine']]],
+  ['roipoolinglayer',['ROIPoolingLayer',['../classInferenceEngine_1_1Builder_1_1ROIPoolingLayer.html',1,'InferenceEngine::Builder']]]
+];

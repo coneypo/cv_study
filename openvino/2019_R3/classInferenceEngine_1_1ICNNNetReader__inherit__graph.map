@@ -1,0 +1,4 @@
+<map id="InferenceEngine::ICNNNetReader" name="InferenceEngine::ICNNNetReader">
+<area shape="rect" id="node2" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="11,95,190,136"/>
+<area shape="rect" id="node3" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="11,5,190,47"/>
+</map>

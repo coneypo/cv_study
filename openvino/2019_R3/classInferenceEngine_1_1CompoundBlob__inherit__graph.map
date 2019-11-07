@@ -1,0 +1,4 @@
+<map id="InferenceEngine::CompoundBlob" name="InferenceEngine::CompoundBlob">
+<area shape="rect" id="node3" href="$classInferenceEngine_1_1NV12Blob.html" title="Represents a blob that contains two planes (Y and UV) in NV12 color format. " alt="" coords="23,155,222,181"/>
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1Blob.html" title="This class represents a universal container in the Inference Engine. " alt="" coords="41,5,205,32"/>
+</map>

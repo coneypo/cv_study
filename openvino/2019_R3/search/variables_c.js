@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['max_5fvalue',['max_value',['../classInferenceEngine_1_1ClampLayer.html#a94a54430abcb0eff0ff7b73d89fbd76f',1,'InferenceEngine::ClampLayer']]],
+  ['meandata',['meanData',['../structInferenceEngine_1_1PreProcessChannel.html#a4c40c2ad85a101f7d4f3b1e739125c85',1,'InferenceEngine::PreProcessChannel']]],
+  ['meanvalue',['meanValue',['../structInferenceEngine_1_1PreProcessChannel.html#aacce6a0fa2b43256b1793a6db08b4b01',1,'InferenceEngine::PreProcessChannel']]],
+  ['metric_5favailable_5fdevices',['METRIC_AVAILABLE_DEVICES',['../namespaceInferenceEngine_1_1Metrics.html#a04ce5d4fb24fde259b329caffa358fa5',1,'InferenceEngine::Metrics']]],
+  ['metric_5fdevice_5fthermal',['METRIC_DEVICE_THERMAL',['../namespaceInferenceEngine_1_1Metrics.html#a2f746c0fabfb75a6fced6cf394cb9b2e',1,'InferenceEngine::Metrics']]],
+  ['metric_5ffull_5fdevice_5fname',['METRIC_FULL_DEVICE_NAME',['../namespaceInferenceEngine_1_1Metrics.html#a33c5772e0e22fab7b981cb33c2820f32',1,'InferenceEngine::Metrics']]],
+  ['metric_5fnetwork_5fname',['METRIC_NETWORK_NAME',['../namespaceInferenceEngine_1_1Metrics.html#ac8a47d4063517a77764b632962d4cc8d',1,'InferenceEngine::Metrics']]],
+  ['metric_5fnumber_5fof_5fexec_5finfer_5frequests',['METRIC_NUMBER_OF_EXEC_INFER_REQUESTS',['../namespaceInferenceEngine_1_1Metrics.html#a8bb4bb50ecf459e83f2dec54e5506e0b',1,'InferenceEngine::Metrics']]],
+  ['metric_5fnumber_5fof_5fwaiting_5finfer_5frequests',['METRIC_NUMBER_OF_WAITING_INFER_REQUESTS',['../namespaceInferenceEngine_1_1Metrics.html#a4cc6b8c1b548fad1e03ea2a897b15400',1,'InferenceEngine::Metrics']]],
+  ['metric_5foptimal_5fnumber_5fof_5finfer_5frequests',['METRIC_OPTIMAL_NUMBER_OF_INFER_REQUESTS',['../namespaceInferenceEngine_1_1Metrics.html#a57a821fbccfb015f161e00b805415a58',1,'InferenceEngine::Metrics']]],
+  ['metric_5foptimization_5fcapabilities',['METRIC_OPTIMIZATION_CAPABILITIES',['../namespaceInferenceEngine_1_1Metrics.html#a54ebc63520c179a5854f5a199d24e1d2',1,'InferenceEngine::Metrics']]],
+  ['metric_5frange_5ffor_5fasync_5finfer_5frequests',['METRIC_RANGE_FOR_ASYNC_INFER_REQUESTS',['../namespaceInferenceEngine_1_1Metrics.html#a4335554dc78de02b95418bb29ade2831',1,'InferenceEngine::Metrics']]],
+  ['metric_5frange_5ffor_5fstreams',['METRIC_RANGE_FOR_STREAMS',['../namespaceInferenceEngine_1_1Metrics.html#a39f21cea314e4a122b857d4112be2eb1',1,'InferenceEngine::Metrics']]],
+  ['metric_5fsupported_5fconfig_5fkeys',['METRIC_SUPPORTED_CONFIG_KEYS',['../namespaceInferenceEngine_1_1Metrics.html#a41d90ac79d73d8706ae2e9eb46a673a1',1,'InferenceEngine::Metrics']]],
+  ['metric_5fsupported_5fmetrics',['METRIC_SUPPORTED_METRICS',['../namespaceInferenceEngine_1_1Metrics.html#a67a2c5ea1cb1ea7d42c71b8bf0d0b97d',1,'InferenceEngine::Metrics']]],
+  ['min_5fvalue',['min_value',['../classInferenceEngine_1_1ClampLayer.html#a7bc1451ca7c2185567e27d919a8ebd54',1,'InferenceEngine::ClampLayer']]],
+  ['mode',['mode',['../classInferenceEngine_1_1TopKLayer.html#a63d0bf9564537b569339ee3fa5df1507',1,'InferenceEngine::TopKLayer']]],
+  ['msg',['msg',['../structInferenceEngine_1_1ResponseDesc.html#abff33fb6c0531d51c70a9cea2065a887',1,'InferenceEngine::ResponseDesc']]]
+];

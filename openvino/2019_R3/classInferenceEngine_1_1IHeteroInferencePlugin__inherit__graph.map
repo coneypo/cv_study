@@ -1,0 +1,5 @@
+<map id="InferenceEngine::IHeteroInferencePlugin" name="InferenceEngine::IHeteroInferencePlugin">
+<area shape="rect" id="node2" href="$classInferenceEngine_1_1IInferencePlugin.html" title="This class is a main plugin interface. " alt="" coords="5,184,205,225"/>
+<area shape="rect" id="node3" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="16,95,195,136"/>
+<area shape="rect" id="node4" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="16,5,195,47"/>
+</map>
