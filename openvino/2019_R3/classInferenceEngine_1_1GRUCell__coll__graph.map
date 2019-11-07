@@ -1,7 +1,0 @@
-<map id="InferenceEngine::GRUCell" name="InferenceEngine::GRUCell">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1RNNCellBase.html" title="Base class for recurrent cell layers. " alt="" coords="106,261,327,288"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1WeightableLayer.html" title="This class represents a layer with Weights and/or Biases (e.g. Convolution/Fully Connected, etc.) " alt="" coords="113,171,321,212"/>
-<area shape="rect" id="node4" href="$classInferenceEngine_1_1CNNLayer.html" title="This is a base abstraction Layer &#45; all DNN Layers inherit from this class. " alt="" coords="117,95,317,121"/>
-<area shape="rect" id="node5" href="$unionInferenceEngine_1_1UserValue.html" title="The method holds the user values to enable binding of data per graph node. " alt="" coords="5,5,207,32"/>
-<area shape="rect" id="node6" href="$classInferenceEngine_1_1Precision.html" title="This class holds precision value and provides precision related operations. " alt="" coords="231,5,426,32"/>
-</map>

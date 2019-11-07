@@ -1,6 +1,0 @@
-<map id="InferenceEngine::Extension" name="InferenceEngine::Extension">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1IExtension.html" title="This class is the main extension interface. " alt="" coords="9,273,211,300"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1IShapeInferExtension.html" title="This class is the reader extension interface to provide implementation for shape propagation. " alt="" coords="5,184,215,225"/>
-<area shape="rect" id="node4" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="21,95,199,136"/>
-<area shape="rect" id="node5" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="21,5,199,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="InferenceEngine::Builder::DeformableConvolutionLayer" name="InferenceEngine::Builder::DeformableConvolutionLayer">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1Builder_1_1ConvolutionLayer.html" title="The class represents a builder for ArgMax layer. " alt="" coords="25,95,207,136"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1Builder_1_1LayerDecorator.html" title="This class defines the basic functional for layer builders. " alt="" coords="25,5,207,47"/>
-</map>

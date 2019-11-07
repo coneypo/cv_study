@@ -1,5 +1,0 @@
-<map id="InferenceEngine::DeformableConvolutionLayer" name="InferenceEngine::DeformableConvolutionLayer">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1ConvolutionLayer.html" title="This class represents a standard 3D Convolution Layer. " alt="" coords="5,169,219,211"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1WeightableLayer.html" title="This class represents a layer with Weights and/or Biases (e.g. Convolution/Fully Connected, etc.) " alt="" coords="8,80,216,121"/>
-<area shape="rect" id="node4" href="$classInferenceEngine_1_1CNNLayer.html" title="This is a base abstraction Layer &#45; all DNN Layers inherit from this class. " alt="" coords="12,5,212,32"/>
-</map>

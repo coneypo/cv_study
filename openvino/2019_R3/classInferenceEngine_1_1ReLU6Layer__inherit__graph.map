@@ -1,4 +1,0 @@
-<map id="InferenceEngine::ReLU6Layer" name="InferenceEngine::ReLU6Layer">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1ClampLayer.html" title="This class represents a Clamp activation layer Clamps all tensor elements into the range [min_value..." alt="" coords="5,80,219,107"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1CNNLayer.html" title="This is a base abstraction Layer &#45; all DNN Layers inherit from this class. " alt="" coords="12,5,212,32"/>
-</map>

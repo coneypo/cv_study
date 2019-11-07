@@ -1,6 +1,0 @@
-<map id="InferenceEngine::Blob" name="InferenceEngine::Blob">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1CompoundBlob.html" title="This class represents a blob that contains other blobs. " alt="" coords="5,80,240,107"/>
-<area shape="rect" id="node4" href="$classInferenceEngine_1_1MemoryBlob.html" title="This class implements a container object that represents a tensor in memory (host and remote/accelera..." alt="" coords="265,80,482,107"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1NV12Blob.html" title="Represents a blob that contains two planes (Y and UV) in NV12 color format. " alt="" coords="23,162,222,189"/>
-<area shape="rect" id="node5" href="$classInferenceEngine_1_1TBlob.html" title="Represents real host memory allocated for a Tensor/Blob per C type. " alt="" coords="287,155,459,196"/>
-</map>

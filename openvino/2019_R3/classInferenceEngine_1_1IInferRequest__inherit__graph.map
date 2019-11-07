@@ -1,4 +1,0 @@
-<map id="InferenceEngine::IInferRequest" name="InferenceEngine::IInferRequest">
-<area shape="rect" id="node2" title="This class is used for objects allocated by a shared module (in *.so) " alt="" coords="27,95,205,136"/>
-<area shape="rect" id="node3" title="This class is used for objects returned from the shared library factory to prevent copying..." alt="" coords="27,5,205,47"/>
-</map>

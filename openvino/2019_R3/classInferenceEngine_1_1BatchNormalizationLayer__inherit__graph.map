@@ -1,4 +1,0 @@
-<map id="InferenceEngine::BatchNormalizationLayer" name="InferenceEngine::BatchNormalizationLayer">
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1WeightableLayer.html" title="This class represents a layer with Weights and/or Biases (e.g. Convolution/Fully Connected, etc.) " alt="" coords="33,80,241,121"/>
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1CNNLayer.html" title="This is a base abstraction Layer &#45; all DNN Layers inherit from this class. " alt="" coords="37,5,237,32"/>
-</map>

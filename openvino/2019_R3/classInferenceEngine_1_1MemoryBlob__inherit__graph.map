@@ -1,4 +1,0 @@
-<map id="InferenceEngine::MemoryBlob" name="InferenceEngine::MemoryBlob">
-<area shape="rect" id="node3" href="$classInferenceEngine_1_1TBlob.html" title="Represents real host memory allocated for a Tensor/Blob per C type. " alt="" coords="28,155,200,196"/>
-<area shape="rect" id="node2" href="$classInferenceEngine_1_1Blob.html" title="This class represents a universal container in the Inference Engine. " alt="" coords="32,5,196,32"/>
-</map>
