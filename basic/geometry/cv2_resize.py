@@ -6,7 +6,8 @@ print(type(img_rd))
 print(img_rd.size)
 print(img_rd.shape)
 
-img_resized = imutils.resize(img_rd, width=300)
+# imutils.resize will never use height
+img_resized = cv2.resize(img_rd, (300, 300))
 print(img_resized.shape)
 
 cv2.imshow("win", img_resized)

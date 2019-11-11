@@ -11,9 +11,11 @@ def draw_circle(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         drawing = True
         ix, iy = x, y
-        print(x,y)
-    elif event == cv2.EVENT_MOUSEMOVE and flags == cv2.EVENT_FLAG_LBUTTON:
+        print("Begin:  ", ix, iy)
+    elif event == cv2.EVENT_MOUSEMOVE:  # and flags == cv2.EVENT_FLAG_LBUTTON:
+        print("Current:", x, y)
         if drawing == True:
+            # Press 'm' to switch mode, draw rectangle or circle
             if mode == True:
                 cv2.rectangle(img, (ix, iy), (x, y), (0, 255, 0), -1)
             else:
