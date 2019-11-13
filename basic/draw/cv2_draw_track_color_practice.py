@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 
 
-def nothing(x):
-    pass
 
 
 drawing = False
@@ -11,7 +9,6 @@ ix, iy = -1, -1
 global r, g, b, w
 
 img = np.zeros((300, 300, 3), np.uint8)
-cv2.namedWindow('img')
 
 
 def draw_circle(event, x, y, flags, param):
@@ -32,6 +29,11 @@ def draw_circle(event, x, y, flags, param):
     else:
         drawing = False
 
+
+cv2.namedWindow('img')
+
+def nothing(x):
+    pass
 
 cv2.createTrackbar('R', 'img', 0, 255, nothing)
 cv2.createTrackbar('G', 'img', 0, 255, nothing)
