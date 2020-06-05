@@ -1,4 +1,4 @@
-# Install script for directory: /home/zt/code/cpp/cv2/draw_shape
+# Install script for directory: /home/zt/code/cpp/cv_study/cpp/Image_processing/draw_shape
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zt/code/cpp/cv2/draw_shape/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zt/code/cpp/cv_study/cpp/Image_processing/draw_shape/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

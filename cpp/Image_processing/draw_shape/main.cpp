@@ -48,7 +48,9 @@ int main( int argc, char** argv )
 
     
     namedWindow( "Display window", WINDOW_AUTOSIZE );
-    imshow( "Display window", image );                  
+    imshow( "Display window", image );
+
+    imwrite("shapes.png", image);
 
     waitKey(0);
     return 0;

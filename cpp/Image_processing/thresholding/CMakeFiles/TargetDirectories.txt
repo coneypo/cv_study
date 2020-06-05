@@ -1,0 +1,3 @@
+/home/zt/code/cpp/cv_study/cpp/Image_processing/thresholding/CMakeFiles/rebuild_cache.dir
+/home/zt/code/cpp/cv_study/cpp/Image_processing/thresholding/CMakeFiles/edit_cache.dir
+/home/zt/code/cpp/cv_study/cpp/Image_processing/thresholding/CMakeFiles/main.dir

@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8595ab3-222b-4dd2-bfe0-d097ebb3726c" name="Default Changelist" comment="" />
+    <list default="true" id="b8595ab3-222b-4dd2-bfe0-d097ebb3726c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image_processing/hit-miss-trans/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image_processing/image_pyramids/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image_processing/morph_lines_detection/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image_processing/thresholding/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image_processing/thresholding_inRange/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/main" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/draw_shape/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/draw_shape/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/eroding_and_dilating/displayImage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/eroding_and_dilating/displayImage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image_processing/hit-miss-trans/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Image_processing/hit-miss-trans/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1cqKYBQWPm0HaI4UabEJeEq5KDI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../python/Dlib_face_cut" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,5 +66,16 @@
       <updated>1591250728964</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

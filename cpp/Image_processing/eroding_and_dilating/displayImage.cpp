@@ -67,11 +67,19 @@ void Erosion(int, void*)
     Mat element = getStructuringElement( erosion_type,
         Size( 2*erosion_size+1, 2*erosion_size+1),
         Point( erosion_size, erosion_size));
+        Point( erosion_size, erosion_size));
 
     erode(src, erosion_dst, element);
     imshow("Erosion Demo", erosion_dst);
 }
 
+// Dilation: The value of the output pixel
+//           is the maximum value of all the pixels
+//           that fall within the structuring element's size and shape.
+//           For example in a binary image, if any of the pixels of
+//           the input image falling within the range of the kernel is set to the value 1,
+//           the corresponding pixel of the output image will be set to 1 as well.
+//           The latter applies to any type of image (e.g. grayscale, bgr, etc).
 void Dilation( int, void*)
 {
     int dilation_type = 0;

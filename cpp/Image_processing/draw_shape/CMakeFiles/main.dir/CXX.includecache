@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zt/code/cpp/cv2/draw_shape/main.cpp
+/home/zt/code/cpp/cv_study/cpp/Image_processing/draw_shape/main.cpp
 stdio.h
 -
 opencv2/opencv.hpp
